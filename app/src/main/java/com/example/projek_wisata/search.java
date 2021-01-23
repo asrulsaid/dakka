@@ -33,6 +33,9 @@ public class search extends AppCompatActivity {
         postitems.add(new postitem(R.drawable.image8));
         postitems.add(new postitem(R.drawable.image9));
         postitems.add(new postitem(R.drawable.image10));
+        postitems.add(new postitem(R.drawable.image11));
+        postitems.add(new postitem(R.drawable.image12));
+        postitems.add(new postitem(R.drawable.image13));
 
 
         postsRecyclerView.setAdapter(new postsadapter(postitems));
